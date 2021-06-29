@@ -1,0 +1,95 @@
+{
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "es6": true
+  },
+  "extends": ["airbnb", "prettier", "plugin:react/recommended"],
+  "plugins": ["prettier", "react", "react-hooks"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true,
+      "modules": true
+    }
+  },
+  "rules": {
+    "arrow-body-style": 0,
+    "camelcase": 0,
+    "class-methods-use-this": 0,
+    "consistent-return": 0,
+    "css.lint.unknownAtRules": 0,
+    "func-names": 0,
+    "global-require": 0,
+    "import/extensions": 0,
+    "import/first": 0,
+    "import/named": 0,
+    "import/no-extraneous-dependencies": 0,
+    "import/no-unresolved": 0,
+    "import/order": 0,
+    "import/prefer-default-export": 0,
+    "jsx-a11y/anchor-is-valid": 0,
+    "jsx-a11y/click-events-have-key-events": 0,
+    "jsx-a11y/label-has-associated-control": 0,
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/mouse-events-have-key-events": 0,
+    "jsx-a11y/no-static-element-interactions": 0,
+    "jsx-a11y/no-noninteractive-element-interactions": 0,
+    "jsx-a11y/control-has-associated-label": 0,
+    "jsx-a11y/anchor-has-content": 0,
+    "max-classes-per-file": 0,
+    "max-len": 0,
+    "no-console": 1,
+    "no-param-reassign": 0,
+    "no-prototype-builtins": 0,
+    "no-return-await": 0,
+    "no-underscore-dangle": [
+      "error",
+      {
+        "allow": ["__REDUX_DEVTOOLS_EXTENSION__"]
+      }
+    ],
+    "no-unused-expressions": ["error", { "allowTaggedTemplates": true }],
+    "no-unused-vars": 2,
+    "no-restricted-globals": 0,
+    "no-var": 1,
+    "prefer-destructuring": 2,
+    "prefer-object-spread": 0,
+    "prettier/prettier": [
+      1,
+      {
+        "arrowParens": "avoid",
+        "printWidth": 100,
+        "semi": false,
+        "singleQuote": true,
+        "trailingComma": "none"
+      }
+    ],
+    "react/button-has-type": 0,
+    "react/default-props-match-prop-types": 0,
+    "react/destructuring-assignment": 0,
+    "react/forbid-prop-types": 0,
+    "react-hooks/exhaustive-deps": "warn",
+    "react-hooks/rules-of-hooks": "error",
+    "react/jsx-curly-brace-presence": 0,
+    "react/jsx-filename-extension": 0,
+    "react/jsx-no-bind": 0,
+    "react/jsx-one-expression-per-line": 0,
+    "react/jsx-props-no-spreading": 0,
+    "react/no-danger": 0,
+    "react/no-did-mount-set-state": 0,
+    "react/no-find-dom-node": 2,
+    "react/no-this-in-sfc": 0,
+    "react/no-unused-prop-types": 2,
+    "react/no-unused-state": 2,
+    "react/prefer-stateless-function": 0,
+    "react/prop-types": 1,
+    "react/react-in-jsx-scope": 0,
+    "react/require-default-props": 0,
+    "react/static-property-placement": 0,
+    "react/jsx-fragments": [1, "syntax"],
+    "react/no-array-index-key": 1,
+    "react/display-name": 0
+  }
+}
